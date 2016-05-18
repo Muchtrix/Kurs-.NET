@@ -23,7 +23,7 @@ namespace _2._5._2 {
             Word.Document document = word.Documents.Add(ref missing, ref missing, ref missing, ref missing);
             document.Content.Text = "Programowanie pod Windows";
 
-            object filename = @"C:\Users\Szymon\Desktop\ppw.doc";
+            object filename = @"C:\Users\Wiktor\Desktop\ppw.doc";
             document.SaveAs2(ref filename);
             document.Close(ref missing, ref missing, ref missing);
             document = null;
