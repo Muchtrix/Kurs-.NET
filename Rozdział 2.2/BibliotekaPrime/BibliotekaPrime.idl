@@ -1,0 +1,18 @@
+// BibliotekaPrime.idl : IDL source for BibliotekaPrime
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (BibliotekaPrime.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(103C8C8F-83FC-48BF-926C-3FE5D5B4EFA9),
+	version(1.0),
+]
+library BibliotekaPrimeLib
+{
+	importlib("stdole2.tlb");
+};
+
